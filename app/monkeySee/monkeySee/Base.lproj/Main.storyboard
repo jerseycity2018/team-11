@@ -44,15 +44,6 @@
                                                         <segue destination="mGO-3A-plg" kind="show" id="acL-0Z-5C9"/>
                                                     </connections>
                                                 </button>
-                                                <view hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="83b-4T-4dU">
-                                                    <rect key="frame" x="0.0" y="0.0" width="374" height="645"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <gestureRecognizers/>
-                                                    <connections>
-                                                        <outletCollection property="gestureRecognizers" destination="N07-Hh-BzU" appends="YES" id="U9k-9m-d5p"/>
-                                                    </connections>
-                                                </view>
                                             </subviews>
                                         </view>
                                         <constraints>
