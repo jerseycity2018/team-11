@@ -6,10 +6,22 @@
 
 body {
   padding-top: 54px;
+  .center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+  }
 }
 
 @media (min-width: 992px) {
   body {
     padding-top: 56px;
+    .center {
+      margin: auto;
+      width: 50%;
+      border: 3px solid green;
+      padding: 10px;
+    }
   }
 }
