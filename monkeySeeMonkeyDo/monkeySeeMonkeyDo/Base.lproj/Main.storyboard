@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item 2-->
+        <!--View Controller-->
         <scene sceneID="y16-mK-g9u">
             <objects>
                 <viewController id="mB4-Us-htV" sceneMemberID="viewController">
@@ -20,13 +20,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="33O-3N-B4f"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="a13-YY-mdM"/>
+                    <tabBarItem key="tabBarItem" systemItem="search" id="a13-YY-mdM"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tx1-vV-g2G" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1089" y="-134"/>
         </scene>
-        <!--Item-->
+        <!--View Controller-->
         <scene sceneID="KbS-Lf-x5f">
             <objects>
                 <viewController id="g6F-eJ-fVx" sceneMemberID="viewController">
@@ -50,13 +50,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="37L-6d-4qP"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="3Vk-Z6-Ahw"/>
+                    <tabBarItem key="tabBarItem" image="icons8-camera-50" selectedImage="icons8-camera-50" id="3Vk-Z6-Ahw"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GfM-zZ-qsS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1089" y="552"/>
         </scene>
-        <!--Item-->
+        <!--View Controller-->
         <scene sceneID="Wmw-QL-9Hi">
             <objects>
                 <viewController id="ZaI-hO-Xl5" sceneMemberID="viewController">
@@ -66,13 +66,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="dUo-Y1-ssp"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="yCD-qJ-Myx"/>
+                    <tabBarItem key="tabBarItem" image="icons8-home-50" selectedImage="icons8-home-50" id="yCD-qJ-Myx"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="511-RW-fzT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1089" y="1296"/>
         </scene>
-        <!--Item-->
+        <!--View Controller-->
         <scene sceneID="KVD-Un-GwQ">
             <objects>
                 <viewController id="OUe-Gm-4cF" sceneMemberID="viewController">
@@ -82,13 +82,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="VYy-v4-t3t"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="ngO-S8-duM"/>
+                    <tabBarItem key="tabBarItem" systemItem="contacts" id="ngO-S8-duM"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Mo-j6-DMx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1089" y="2364"/>
         </scene>
-        <!--Item 1-->
+        <!--View Controller-->
         <scene sceneID="evA-gz-s7g">
             <objects>
                 <viewController id="7R1-mg-KuG" customClass="ViewController" customModule="monkeySeeMonkeyDo" customModuleProvider="target" sceneMemberID="viewController">
@@ -99,7 +99,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="asN-up-e3Q">
                                 <rect key="frame" x="29" y="185" width="311" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Play Video"/>
                                 <connections>
                                     <action selector="onClick:" destination="7R1-mg-KuG" eventType="touchUpInside" id="cT4-AP-4HU"/>
                                 </connections>
@@ -108,7 +108,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="V0F-nj-cSJ"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="7SA-7a-gLz"/>
+                    <tabBarItem key="tabBarItem" title="" image="icons8-home-50" selectedImage="icons8-home-50" id="7SA-7a-gLz"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="trt-7y-VqC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -136,4 +136,8 @@
             <point key="canvasLocation" x="79" y="498"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="icons8-camera-50" width="50" height="50"/>
+        <image name="icons8-home-50" width="50" height="50"/>
+    </resources>
 </document>
