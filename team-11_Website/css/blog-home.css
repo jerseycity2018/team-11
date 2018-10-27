@@ -8,8 +8,15 @@ body {
   padding-top: 54px;
 }
 
+p{
+  padding-top: 50px;
+  text-indent: 50px;
+}
+
+
 @media (min-width: 992px) {
   body {
+
     padding-top: 56px;
   }
 }
