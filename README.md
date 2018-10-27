@@ -2,7 +2,7 @@
 
 **ChallengeMonkey** is a website where users can challenge each other.
 
-Time spent (coding part): **5** hours spent in total
+Time spent (coding website part): **5** hours spent in total
 
 ## User features
 
