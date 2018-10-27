@@ -1,4 +1,16 @@
 <!DOCTYPE html>
+
+<!-- 
+
+
+	This is our home page. Shows video feeds to the user 
+
+	We got this website template on the Internet and customized it
+
+
+-->
+
+
 <html lang="en">
 
   <head>
@@ -16,6 +28,9 @@
 
     <!-- Custom styles for this template -->
     <link href="../css/blog-home.css" rel="stylesheet">
+
+
+<!-- CSS part -->
 
 <style>
 .dropbtn {
@@ -56,7 +71,7 @@
 </style>
 
 
-
+<!-- end of CSS -->
 
   </head>
 
@@ -88,7 +103,7 @@
                   };
                   /* When the user clicks on the button,
                   toggle between hiding and showing the dropdown content */
-                  function myFunction() {
+                  function toggleNotification() {
                       document.getElementById("myDropdown").classList.toggle("show");
                   }
 
@@ -118,7 +133,7 @@
                   </script>
 
 
-                <a href="#" onclick="myFunction()" class="dropbtn">Notifications(3)</a>
+                <a href="#" onclick="toggleNotification()" class="dropbtn">Notifications(3)</a>
                   <div id="myDropdown" class="dropdown-content">
 
                     <a href="#"><b>TommyYau</b> just tagged you for a challenge</a>
