@@ -4,6 +4,14 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-home/blob/master/LICENSE)
  */
 
+ html, body, {
+     position:fixed;
+     top:0;
+     bottom:0;
+     left:0;
+     right:0;
+ }
+ 
 body {
 
   padding-top: 55px;
