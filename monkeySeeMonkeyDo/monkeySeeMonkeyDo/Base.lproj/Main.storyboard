@@ -77,7 +77,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kUS-Gp-coF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1438" y="1037"/>
+            <point key="canvasLocation" x="1438" y="268"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="c3Y-pu-PEq">
@@ -89,11 +89,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="ifZ-AE-h4F"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="search" id="iAr-bP-dAF"/>
+                    <tabBarItem key="tabBarItem" systemItem="favorites" id="iAr-bP-dAF"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fwf-YM-uvd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1438" y="252"/>
+            <point key="canvasLocation" x="1438" y="956"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="6CX-Pa-F6z">
