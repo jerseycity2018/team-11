@@ -14,6 +14,44 @@
     <!-- Custom styles for this template -->
     <link href="../css/blog-home.css" rel="stylesheet">
 
+<style>
+.dropbtn {
+    background-color: transparent;
+    color: #ffffff80;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: transparent;
+    color: #ffffff80;
+}
+
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.show {display: block;}
+</style>
+
+
   </head>
 
   <body>
@@ -65,27 +103,59 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
 
-        <a class="navbar-brand" href="index.html">Monkey See Monkey Do</a>
+        <a class="navbar-brand" href="index.html">ChallengeMonkey</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-
             <li class="nav-item">
               <a class="nav-link" href="index.html">Home
-
                 <span class="sr-only">(current)</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="a.html">About</a>
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item" style="padding-top: 7px;">
+              <!-- <a class="nav-link" href="notifications.html">Notifications(3)</a> -->
+              <script>
+                  /* When the user clicks on the button, 
+                  toggle between hiding and showing the dropdown content */
+                  function myFunction() {
+                      document.getElementById("myDropdown").classList.toggle("show");
+                  }
+
+                  // Close the dropdown if the user clicks outside of it
+                  window.onclick = function(event) {
+                    if (!event.target.matches('.dropbtn')) {
+
+                      var dropdowns = document.getElementsByClassName("dropdown-content");
+                      var i;
+                      for (i = 0; i < dropdowns.length; i++) {
+                        var openDropdown = dropdowns[i];
+                        if (openDropdown.classList.contains('show')) {
+                          openDropdown.classList.remove('show');
+                        }
+                      }
+                    }
+                  }
+                  </script>
+
+    
+                <a href="#" onclick="myFunction()" class="dropbtn">Notifications(3)</a>
+                  <div id="myDropdown" class="dropdown-content">
+                    
+                    <a href="#"><b>TommyYau</b> just tagged you for a challenge</a>
+                    <a href="#">Congratulations! You just reached <b>level 3</b> and unlocked a <b>new video effect!</b></a>
+                    <a href="#">Challenge of the Week: <i>Recycling With Style</i></a>
+                  </div>
+                
+
+
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="profile.html">My Profile</a>
+              <a class="nav-link" href="profile.html">Profile</a>
             </li>
           </ul>
         </div>
