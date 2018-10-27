@@ -35,19 +35,31 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="pic" translatesAutoresizingMaskIntoConstraints="NO" id="Jgw-fo-qPo">
-                                                    <rect key="frame" x="8" y="0.0" width="358" height="645"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="374" height="645"/>
                                                 </imageView>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6qF-b2-QMh">
-                                                    <rect key="frame" x="155" y="344" width="64" height="30"/>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ITN-aS-Qui">
+                                                    <rect key="frame" x="150" y="280" width="73" height="64"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <connections>
+                                                        <segue destination="mGO-3A-plg" kind="show" id="acL-0Z-5C9"/>
+                                                    </connections>
                                                 </button>
+                                                <view hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="83b-4T-4dU">
+                                                    <rect key="frame" x="0.0" y="20" width="374" height="625"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <gestureRecognizers/>
+                                                    <connections>
+                                                        <outletCollection property="gestureRecognizers" destination="N07-Hh-BzU" appends="YES" id="U9k-9m-d5p"/>
+                                                    </connections>
+                                                </view>
                                             </subviews>
                                         </view>
                                         <constraints>
-                                            <constraint firstAttribute="trailingMargin" secondItem="Jgw-fo-qPo" secondAttribute="trailing" id="0eh-2q-CHe"/>
-                                            <constraint firstAttribute="bottomMargin" secondItem="Jgw-fo-qPo" secondAttribute="bottom" id="Ahs-rX-4m3"/>
-                                            <constraint firstItem="Jgw-fo-qPo" firstAttribute="leading" secondItem="LOH-Hv-Nay" secondAttribute="leadingMargin" id="diD-ab-RI0"/>
-                                            <constraint firstItem="Jgw-fo-qPo" firstAttribute="top" secondItem="LOH-Hv-Nay" secondAttribute="topMargin" id="z1n-WB-YJv"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="Jgw-fo-qPo" secondAttribute="trailing" constant="-8" id="0eh-2q-CHe"/>
+                                            <constraint firstAttribute="bottomMargin" secondItem="Jgw-fo-qPo" secondAttribute="bottom" constant="-8" id="Ahs-rX-4m3"/>
+                                            <constraint firstItem="Jgw-fo-qPo" firstAttribute="leading" secondItem="LOH-Hv-Nay" secondAttribute="leadingMargin" constant="-8" id="diD-ab-RI0"/>
+                                            <constraint firstItem="Jgw-fo-qPo" firstAttribute="top" secondItem="LOH-Hv-Nay" secondAttribute="topMargin" constant="-8" id="z1n-WB-YJv"/>
                                         </constraints>
                                         <connections>
                                             <outlet property="imageView" destination="Jgw-fo-qPo" id="cCR-0w-MuU"/>
@@ -73,8 +85,28 @@
                     <tabBarItem key="tabBarItem" systemItem="contacts" id="51I-cI-JKB"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1b2-dE-ZkI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="down" id="N07-Hh-BzU">
+                    <connections>
+                        <segue destination="mGO-3A-plg" kind="show" id="lsa-VV-nH8"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1735.2" y="-881.10944527736137"/>
+            <point key="canvasLocation" x="1728.8" y="-881.10944527736137"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="sJU-jx-DNM">
+            <objects>
+                <viewController id="mGO-3A-plg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8X8-DC-MJR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Bw9-nd-Z8Y"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e8t-zO-7n3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2510" y="-881"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="vkY-IJ-ydz">
@@ -97,4 +129,7 @@
     <resources>
         <image name="pic" width="640" height="1136"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="acL-0Z-5C9"/>
+    </inferredMetricsTieBreakers>
 </document>
