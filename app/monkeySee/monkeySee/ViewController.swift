@@ -8,26 +8,27 @@
 
 import UIKit
 import AVKit
-class ViewController: UIViewController {
-
-    @IBAction func onClick(_ sender: Any) {
-        if let path = Bundle.main.path(forResource: "video", ofType: "mp4"){
-            let video =  AVPlayer(url: URL(fileURLWithPath: path))
-            let videoPlayer = AVPlayerViewController()
-            videoPlayer.player = video
-            
-            present(videoPlayer, animated: true, completion: {
-                video.play()
-            })
-        }
+class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource{
+    
+    let imageArray:[String] = ["pic"]
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! CollectionViewCell
         
+        cell.imageView.image = UIImage(named: imageArray[indexPath.row] + ".jpg" )
+        return cell
         
     }
+    
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        
+        return imageArray.count
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-
 }
 
