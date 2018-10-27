@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E29F453218432D4009DDCE6 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4E29F452218432D4009DDCE6 /* video.mp4 */; };
 		4ECCABD72183E187002B3035 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECCABD62183E187002B3035 /* AppDelegate.swift */; };
 		4ECCABD92183E187002B3035 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECCABD82183E187002B3035 /* ViewController.swift */; };
 		4ECCABDC2183E187002B3035 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ECCABDA2183E187002B3035 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E29F452218432D4009DDCE6 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
 		4ECCABD32183E187002B3035 /* monkeySeeMonkeyDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = monkeySeeMonkeyDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ECCABD62183E187002B3035 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4ECCABD82183E187002B3035 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +40,7 @@
 		4ECCABCA2183E187002B3035 = {
 			isa = PBXGroup;
 			children = (
+				4E29F452218432D4009DDCE6 /* video.mp4 */,
 				4ECCABD52183E187002B3035 /* monkeySeeMonkeyDo */,
 				4ECCABD42183E187002B3035 /* Products */,
 			);
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E29F453218432D4009DDCE6 /* video.mp4 in Resources */,
 				4ECCABE12183E189002B3035 /* LaunchScreen.storyboard in Resources */,
 				4ECCABDE2183E189002B3035 /* Assets.xcassets in Resources */,
 				4ECCABDC2183E187002B3035 /* Main.storyboard in Resources */,
@@ -283,7 +287,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TS8PUR8533;
+				DEVELOPMENT_TEAM = D847SMXCCF;
 				INFOPLIST_FILE = monkeySeeMonkeyDo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -302,7 +306,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TS8PUR8533;
+				DEVELOPMENT_TEAM = D847SMXCCF;
 				INFOPLIST_FILE = monkeySeeMonkeyDo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
