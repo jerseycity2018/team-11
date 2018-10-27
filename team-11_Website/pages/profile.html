@@ -79,8 +79,42 @@
             <li class="nav-item">
               <a class="nav-link" href="about.html">About</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Notifications(3)</a>
+            <li class="nav-item" style="padding-top: 7px;">
+              <!-- <a class="nav-link" href="notifications.html">Notifications(3)</a> -->
+              <script>
+                  /* When the user clicks on the button, 
+                  toggle between hiding and showing the dropdown content */
+                  function myFunction() {
+                      document.getElementById("myDropdown").classList.toggle("show");
+                  }
+
+                  // Close the dropdown if the user clicks outside of it
+                  window.onclick = function(event) {
+                    if (!event.target.matches('.dropbtn')) {
+
+                      var dropdowns = document.getElementsByClassName("dropdown-content");
+                      var i;
+                      for (i = 0; i < dropdowns.length; i++) {
+                        var openDropdown = dropdowns[i];
+                        if (openDropdown.classList.contains('show')) {
+                          openDropdown.classList.remove('show');
+                        }
+                      }
+                    }
+                  }
+                  </script>
+
+    
+                <a href="#" onclick="myFunction()" class="dropbtn">Notifications(3)</a>
+                  <div id="myDropdown" class="dropdown-content">
+                    
+                    <a href="#"><b>TommyYau</b> just tagged you for a challenge</a>
+                    <a href="#">Congratulations! You just reached <b>level 3</b> and unlocked a <b>new video effect!</b></a>
+                    <a href="#">Challenge of the Week: <i>Recycling With Style</i></a>
+                  </div>
+                
+
+
             </li>
             <li class="nav-item">
               <a class="nav-link" href="profile.html">Profile</a>
