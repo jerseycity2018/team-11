@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="QxN-uo-o5Y">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="QxN-uo-o5Y">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -14,11 +13,14 @@
         <scene sceneID="y16-mK-g9u">
             <objects>
                 <viewController id="mB4-Us-htV" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8Ld-iC-LsB"/>
+                        <viewControllerLayoutGuide type="bottom" id="3Lt-8l-6Ox"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="sRN-fD-bAN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="33O-3N-B4f"/>
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="search" id="a13-YY-mdM"/>
                 </viewController>
@@ -30,6 +32,10 @@
         <scene sceneID="KbS-Lf-x5f">
             <objects>
                 <viewController id="g6F-eJ-fVx" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ryo-C7-I2Q"/>
+                        <viewControllerLayoutGuide type="bottom" id="fsd-de-bMI"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="a5q-13-vho">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -48,7 +54,6 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="37L-6d-4qP"/>
                     </view>
                     <tabBarItem key="tabBarItem" image="icons8-camera-50" selectedImage="icons8-camera-50" id="3Vk-Z6-Ahw"/>
                 </viewController>
@@ -60,11 +65,14 @@
         <scene sceneID="Wmw-QL-9Hi">
             <objects>
                 <viewController id="ZaI-hO-Xl5" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oSf-6k-O3i"/>
+                        <viewControllerLayoutGuide type="bottom" id="arL-Nn-vLb"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="VBn-gq-Jp2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="dUo-Y1-ssp"/>
                     </view>
                     <tabBarItem key="tabBarItem" image="icons8-home-50" selectedImage="icons8-home-50" id="yCD-qJ-Myx"/>
                 </viewController>
@@ -76,22 +84,29 @@
         <scene sceneID="KVD-Un-GwQ">
             <objects>
                 <viewController id="OUe-Gm-4cF" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VK9-2k-XzV"/>
+                        <viewControllerLayoutGuide type="bottom" id="bQN-8I-byn"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="2QO-mA-Yh0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="VYy-v4-t3t"/>
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="contacts" id="ngO-S8-duM"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Mo-j6-DMx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1089" y="2364"/>
+            <point key="canvasLocation" x="1089" y="2000"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="evA-gz-s7g">
             <objects>
                 <viewController id="7R1-mg-KuG" customClass="ViewController" customModule="monkeySeeMonkeyDo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vip-4e-s7I"/>
+                        <viewControllerLayoutGuide type="bottom" id="BRc-ow-U4h"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="AuX-nw-jgM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -106,7 +121,6 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="V0F-nj-cSJ"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="icons8-home-50" selectedImage="icons8-home-50" id="7SA-7a-gLz"/>
                 </viewController>
@@ -137,7 +151,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="icons8-camera-50" width="50" height="50"/>
-        <image name="icons8-home-50" width="50" height="50"/>
+        <image name="icons8-camera-50" width="37.5" height="37.5"/>
+        <image name="icons8-home-50" width="37.5" height="37.5"/>
     </resources>
 </document>
