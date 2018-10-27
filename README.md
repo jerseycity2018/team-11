@@ -1,24 +1,14 @@
-# Hackathon Project - *Monkey See Monkey Do*
+# JPMorgan Code for Good Hackathon - *ChallengeMonkey*
 
-**Monkey See Monkey Do** is a social media iOS app. 
+**ChallengeMonkey** is a website where users can challenge each other.
 
-Time spent: **18** hours spent in total
+Time spent (coding part): **5** hours spent in total
 
-## User Stories
+## User features
 
-Users can upload videos to this app and display themselves doing the challenges we have for them. User features include adding videos, "liking" these videos, searching for account names, sharing accounts etc. 
-
-
-## Video Walkthrough
-
-Here's a walkthrough of implemented user stories:
-
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+This website allows users to challenge each other while improving the environment. Users can take videos, upload them, like and comment other's videos,
+write hashtags and have the opportunity to complete many different challenges will make this a very exciting technology to use.
 
 ## Notes
 
-Describe any challenges encountered while building the app.
-
-
+We initially tried to do this using iOS development. But we realized it would be impractical and we needed a way to allow every team member to contribute to code. Doing a website was the best option for this so we were able to develop the website in about 5 hours. 
